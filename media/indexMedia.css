@@ -1,0 +1,285 @@
+@media only screen and (max-width:1330px){
+   
+    /* Header */ .menu{
+    max-width:990px ;
+   }
+
+    /* Section1 */
+    .section1-mid{
+        max-width: 990px;
+     }
+
+      /* About Us */
+    .aboutUs-mid{
+        max-width: 990px;
+    }
+
+     /* Galler Section */
+     .gallery-mid{
+        max-width: 990px;
+        flex-wrap: wrap;
+    }
+       /* Light Box Section */
+       .lightBox{
+        height: 120vh;
+    }
+    .lightBoxInner{
+        height: 60vh;
+    }
+    .lightBoxInner img{
+        width: 100%;
+        height: 60vh;
+    }
+
+
+    
+    .contactUsmid{
+        max-width: 990px;
+     }
+
+      /* Footer */
+    .footerMid{
+        max-width: 990px;
+    }
+}
+
+
+
+
+
+@media only screen and (max-width:990px){
+   
+    /* Header */ .menu{
+    max-width:760px ;
+   }
+
+    /* Section1 */
+    .section1-mid{
+        max-width: 760px;
+     }
+     .orderAndBook{
+        flex-direction: column;
+        gap: 10px;
+}
+ .order,.book{
+    padding: 10px 10px;
+ }
+ .orderAndBook .order{
+    margin-right: 0;
+}
+
+      /* About Us */
+    .aboutUs-mid{
+        max-width: 760px;
+    }
+
+     /* Galler Section */
+     .gallery-mid{
+        max-width: 760px;
+        flex-wrap: wrap;
+    }
+
+    /* Light Box Section */
+    .lightBox{
+        height: 122vh;
+    }
+    .lightBoxInner{
+        height: 40vh;
+    }
+    .lightBoxInner img{
+        width: 100%;
+        height: 40vh;
+    }
+
+
+
+
+    /* <!--Frequently Ask Question--> */
+    .faqMid{
+        max-width: 760px;
+    }
+
+
+
+    .contactUsmid{
+        max-width: 760px;
+     }
+
+      /* Footer */
+    .footerMid{
+        max-width: 760px;
+    }
+}
+
+
+
+
+
+@media only screen and (max-width:768px){
+    /* Header */
+     header{
+        align-items: center;
+    }
+    nav{
+        display: none;
+    }
+    .menu{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .fa-bars{
+        display: block;
+        color: white;
+        font-size: 25px;
+        font-weight: 600;
+    }
+
+     /* Section1 */
+     .section1-mid{
+        max-width: 450px;
+        padding: 80px 0;
+        flex-direction: column-reverse;
+        order: reverse;
+     }
+     .section1-mid .details{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+     }
+     .section1-mid .details p{
+        padding: 15px 25px;
+     }
+   
+     .order,.book{
+        padding: 10px 100px;
+     }
+     .orderAndBook .order{
+        margin-right: 0;
+    }
+
+
+    /* About Us */
+    .aboutUs-mid{
+        max-width: 450px;
+        flex-direction: column;
+    }
+
+
+    /* Galler Section */
+    .gallery-mid{
+        max-width: 450px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .gallery-pics{
+        flex-basis: 99%;
+        margin-bottom: 90px;
+     }
+       /* Light Box Section */
+    .lightBox{
+        display: none;
+    }
+    .lightBoxInner{
+        display: none;
+    }
+    .lightBoxInner img{
+        display: none;
+    }
+
+     /* Light Box Section */
+  
+
+      /* <!--Frequently Ask Question--> */
+    .faqMid{
+        max-width: 450px;
+    }
+    .faqInner h2{
+        font-size: 16px;
+        font-weight: 600;
+        padding-right: 30px;
+    }
+    p{
+        padding-right: 40px;
+        text-align: justify;
+    }
+    .faqInner h2 span{
+        top: 0;
+    }
+
+
+
+     /* <!--Contact me--> */
+     .contactUsmid{
+        flex-direction: column;
+        max-width: 450px;
+        gap: 50px;
+     }
+     .enterMessage{
+        align-self: stretch;
+        flex-basis: 90%;
+    }
+    .enterMessage div input{
+        width: 90%;
+    }
+    .trackUs{
+        align-self: stretch;
+    }
+
+    /* Footer */
+    .footerMid{
+        max-width: 450px;
+        flex-direction: column;
+        gap: 40px;
+    }
+}
+
+@media only screen and (max-width:450px){
+     /* Section1 */
+    .section1-mid{
+        margin: 0 20px;
+     }
+     .section1-mid .details p{
+        text-align: left;
+        padding: 20px 0;
+     }
+     .order,.book{
+        padding: 10px 80px;
+     }
+      /* About Us */
+    .aboutUs-mid{
+        padding: 0 15px;
+    }
+    .aboutUsMidLeft p{
+        text-align: justify;
+    }
+
+
+    /* Galler Section */
+    .gallery-mid{
+        padding: 0 10px;
+    }
+
+
+
+       /* <!--Frequently Ask Question--> */
+       .faqMid{
+        margin: 0 10px;
+    }
+  
+
+
+
+     /* <!--Contact me--> */
+     .contactUsmid{
+        padding: 0 15px;
+     }
+
+
+z
+      /* Footer */
+    .footerMid{
+        padding: 0 15px;
+    }
+}
